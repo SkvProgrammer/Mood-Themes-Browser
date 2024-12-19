@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "Mood Theme Changer",
+    "version": "1.0",
+    "description": "Change browser window color based on your mood.",
+    "permissions": ["storage", "activeTab"],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": "icon.webp"
+    }
+  }
+  

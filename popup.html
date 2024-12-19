@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mood Theme Changer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .mood-button {
+            display: block;
+            width: 100%;
+            margin: 10px 0;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .happy { background-color: yellow; color: black; }
+        .sad { background-color: blue; }
+        .calm { background-color: green; }
+        .excited { background-color: orange; }
+    </style>
+</head>
+<body>
+    <h1>Select Your Mood</h1>
+    <button class="mood-button happy" data-color="yellow">Happy</button>
+    <button class="mood-button sad" data-color="blue">Sad</button>
+    <button class="mood-button calm" data-color="green">Calm</button>
+    <button class="mood-button excited" data-color="orange">Excited</button>
+    <script src="popup.js"></script>
+</body>
+</html>
